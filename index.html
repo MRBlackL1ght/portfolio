@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mrblacklight — Портфолио</title>
+  <meta name="description" content="Портфолио разработчика mrblacklight: Python, discord.py, HTML, CSS, JavaScript, SQLite">
+  <link rel="icon" href="assets/img/avatar.webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Фон -->
+  <div class="bg">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <nav class="nav">
+    <a href="#top" class="nav-logo">mrblacklight</a>
+    <div class="nav-links">
+      <a href="#achievements">Достижения</a>
+      <a href="#projects">Проекты</a>
+      <a href="#contacts">Контакты</a>
+    </div>
+  </nav>
+
+  <!-- ================= ПРОФИЛЬ ================= -->
+  <header class="hero" id="top">
+    <div class="profile-card reveal">
+      <div class="avatar-wrap">
+        <img class="avatar" src="assets/img/avatar.webp" alt="Аватар mrblacklight">
+      </div>
+
+      <div class="profile-info">
+        <span class="status"><span class="dot"></span> Открыт к новым проектам</span>
+        <h1 class="name">mrblacklight</h1>
+        <p class="role">Python &amp; Web-разработчик</p>
+        <p class="bio">
+          Привет! Я разрабатываю Discord ботов, веб сайты и backend решения.
+          Люблю превращать идеи в работающие продукты — от базы данных до красивого интерфейса.
+        </p>
+
+        <div class="skills">
+          <span class="skill">Python</span>
+          <span class="skill">discord.py</span>
+          <span class="skill">HTML</span>
+          <span class="skill">CSS</span>
+          <span class="skill">JavaScript</span>
+          <span class="skill">SQLite</span>
+        </div>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">Мои проекты</a>
+          <a href="#contacts" class="btn btn-ghost">Связаться</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================= ДОСТИЖЕНИЯ ================= -->
+    <section class="section" id="achievements">
+      <h2 class="section-title reveal">Достижения и <span class="gradient-text">образование</span></h2>
+
+      <div class="achievements">
+        <article class="achievement-card reveal">
+          <div class="achievement-icon">🏆</div>
+          <h3>Победитель хакатона</h3>
+          <p>Хакатон от компаний:</p>
+          <div class="companies">
+            <span>Бинетика</span>
+            <span>Альт Академия</span>
+            <span>ИТ.Москва</span>
+          </div>
+          <a href="assets/certificates/hackathon.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-small">
+            📄 Смотреть сертификат
+          </a>
+        </article>
+
+        <article class="achievement-card reveal">
+          <div class="achievement-icon">🎓</div>
+          <h3>Основы веб-разработки</h3>
+          <p>Дополнительное образование от <strong>Яндекс</strong></p>
+          <div class="companies">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+          <a href="assets/certificates/yandex.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-small">
+            📄 Смотреть сертификат
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <!-- ================= ПРОЕКТЫ ================= -->
+    <section class="section" id="projects">
+      <h2 class="section-title reveal">Мои <span class="gradient-text">проекты</span></h2>
+
+      <div class="projects">
+
+        <article class="project-card reveal">
+          <div class="project-image">
+            <img src="assets/projects/avernus.webp" alt="Avernus World">
+            <span class="project-number">01</span>
+          </div>
+          <div class="project-body">
+            <h3>Avernus World</h3>
+            <p>Текстовая MMORPG прямо в Discord: 7 народов, 5 путей силы, пошаговые бои, сюжетные главы, гильдии, ремесло и арена по Эло.</p>
+            <div class="tags">
+              <span>Python</span>
+              <span>discord.py</span>
+              <span>SQLite</span>
+            </div>
+            <div class="project-links">
+              <a href="https://discord.gg/JdSKRh2XUz" target="_blank" rel="noopener noreferrer">Discord →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-image">
+            <img src="assets/projects/Wexel_Main.webp" alt="Wexel Main">
+            <span class="project-number">02</span>
+          </div>
+          <div class="project-body">
+            <h3>Wexel Main</h3>
+            <p>Бот-лидер в сфере управления и координации работы Сервера!</p>
+            <div class="tags">
+              <span>Python</span>
+              <span>discord.py</span>
+              <span>SQLite</span>
+            </div>
+            <div class="project-links">
+              <a href="https://discord.gg/5skCjFDgPZ" target="_blank" rel="noopener noreferrer">Discord →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-image">
+            <img src="assets/projects/Wexel_Fun.webp" alt="Wexel Fun">
+            <span class="project-number">03</span>
+          </div>
+          <div class="project-body">
+            <h3>Wexel Fun</h3>
+            <p>Бот для развлекательных активностей на сервере!</p>
+            <div class="tags">
+              <span>Python</span>
+              <span>discord.py</span>
+              <span>SQLite</span>
+            </div>
+            <div class="project-links">
+              <a href="https://discord.gg/5skCjFDgPZ" target="_blank" rel="noopener noreferrer">Discord →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-image">
+            <img src="assets/projects/Wexel_Moderation.webp" alt="Wexel Moderation">
+            <span class="project-number">04</span>
+          </div>
+          <div class="project-body">
+            <h3>Wexel Moderation</h3>
+            <p>Бот для модерации, логирования и управления сообществом на сервере!</p>
+            <div class="tags">
+              <span>Python</span>
+              <span>discord.py</span>
+              <span>SQLite</span>
+            </div>
+            <div class="project-links">
+              <a href="https://discord.gg/5skCjFDgPZ" target="_blank" rel="noopener noreferrer">Discord →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-image">
+            <img src="assets/projects/ono_tebe_nado.webp" alt="Проект 5">
+            <span class="project-number">05</span>
+          </div>
+          <div class="project-body">
+            <h3>Оно тебе надо</h3>
+            <p>Аукцион культовых вещей в которые никто не верил!</p>
+            <div class="tags">
+              <span>HTML</span>
+              <span>CSS</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/MRBlackL1ght/ono-tebe-nado" target="_blank" rel="noopener noreferrer">GitHub →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-image">
+            <img src="assets/projects/avernus_site.webp" alt="Avernus Legal Сайт">
+            <span class="project-number">06</span>
+          </div>
+          <div class="project-body">
+            <h3>Avernus Legal Сайт</h3>
+            <p>Сайт с юридическим описанием продукта.</p>
+            <div class="tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://mrblackl1ght.github.io/avernus-legal/" target="_blank" rel="noopener noreferrer">Сайт →</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ================= КОНТАКТЫ ================= -->
+    <section class="section" id="contacts">
+      <h2 class="section-title reveal">Мои <span class="gradient-text">контакты</span></h2>
+
+      <div class="contacts">
+        <a href="https://t.me/mrblacklight" target="_blank" rel="noopener noreferrer" class="contact-card reveal">
+          <svg viewBox="0 0 24 24" class="contact-icon" aria-hidden="true"><path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"/></svg>
+          <span class="contact-name">Telegram</span>
+          <span class="contact-handle">@mrblacklight</span>
+        </a>
+
+        <a href="https://discord.com/users/398768320813203456" target="_blank" rel="noopener noreferrer" class="contact-card reveal">
+          <svg viewBox="0 0 24 24" class="contact-icon" aria-hidden="true"><path d="M20.32 4.37a19.8 19.8 0 0 0-4.89-1.52.07.07 0 0 0-.08.04c-.21.38-.44.87-.61 1.25a18.27 18.27 0 0 0-5.49 0 12.6 12.6 0 0 0-.62-1.25.08.08 0 0 0-.08-.04 19.74 19.74 0 0 0-4.89 1.52.07.07 0 0 0-.03.03C.53 9.05-.32 13.58.1 18.06a.08.08 0 0 0 .03.06 19.9 19.9 0 0 0 5.99 3.03.08.08 0 0 0 .08-.03c.46-.63.87-1.3 1.23-1.99a.08.08 0 0 0-.04-.11 13.1 13.1 0 0 1-1.87-.89.08.08 0 0 1-.01-.13l.37-.29a.07.07 0 0 1 .08-.01c3.93 1.79 8.18 1.79 12.06 0a.07.07 0 0 1 .08.01l.37.29a.08.08 0 0 1-.01.13c-.6.35-1.22.65-1.87.89a.08.08 0 0 0-.04.11c.36.7.77 1.36 1.23 1.99a.08.08 0 0 0 .08.03 19.84 19.84 0 0 0 6-3.03.08.08 0 0 0 .03-.05c.5-5.18-.84-9.67-3.55-13.66a.06.06 0 0 0-.03-.03zM8.02 15.33c-1.18 0-2.16-1.08-2.16-2.42 0-1.33.96-2.42 2.16-2.42 1.21 0 2.18 1.1 2.16 2.42 0 1.34-.96 2.42-2.16 2.42zm7.97 0c-1.18 0-2.15-1.08-2.15-2.42 0-1.33.95-2.42 2.15-2.42 1.21 0 2.18 1.1 2.16 2.42 0 1.34-.95 2.42-2.16 2.42z"/></svg>
+          <span class="contact-name">Discord</span>
+          <span class="contact-handle">@mrblacklight</span>
+        </a>
+
+        <a href="https://github.com/mrblackl1ght" target="_blank" rel="noopener noreferrer" class="contact-card reveal">
+          <svg viewBox="0 0 24 24" class="contact-icon" aria-hidden="true"><path d="M12 .3a12 12 0 0 0-3.8 23.38c.6.12.83-.26.83-.57L9 21.07c-3.34.72-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.08-.74.09-.73.09-.73 1.2.09 1.83 1.24 1.83 1.24 1.07 1.83 2.81 1.3 3.5 1 .1-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.64 1.66.24 2.88.12 3.18a4.65 4.65 0 0 1 1.23 3.22c0 4.61-2.8 5.63-5.48 5.92.42.36.81 1.1.81 2.22l-.01 3.29c0 .31.2.69.82.57A12 12 0 0 0 12 .3"/></svg>
+          <span class="contact-name">GitHub</span>
+          <span class="contact-handle">mrblackl1ght</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> mrblacklight · Сделано с 💜</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
